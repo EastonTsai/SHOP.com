@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SHOP.com/static/css/main.d6962239.css",
-    "main.js": "/SHOP.com/static/js/main.cf874e33.js",
+    "main.js": "/SHOP.com/static/js/main.6ac0debb.js",
     "static/js/787.7c75e61e.chunk.js": "/SHOP.com/static/js/787.7c75e61e.chunk.js",
     "static/media/SHOP_logo.svg": "/SHOP.com/static/media/SHOP_logo.3e3a38ebf999595fc0450eb47b3776e5.svg",
     "static/media/🦆 icon _instagram_.svg": "/SHOP.com/static/media/🦆 icon _instagram_.b5caa913dbd7a600fef468fa3dc57d84.svg",
@@ -15,11 +15,11 @@
     "static/media/🦆 icon _nav arrow left_.svg": "/SHOP.com/static/media/🦆 icon _nav arrow left_.48a7ccf40f5af85d98345a1f32c15166.svg",
     "static/media/🦆 icon _nav arrow right_.svg": "/SHOP.com/static/media/🦆 icon _nav arrow right_.ff7d2ed56fe554895fc01017a3d1f545.svg",
     "main.d6962239.css.map": "/SHOP.com/static/css/main.d6962239.css.map",
-    "main.cf874e33.js.map": "/SHOP.com/static/js/main.cf874e33.js.map",
+    "main.6ac0debb.js.map": "/SHOP.com/static/js/main.6ac0debb.js.map",
     "787.7c75e61e.chunk.js.map": "/SHOP.com/static/js/787.7c75e61e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6962239.css",
-    "static/js/main.cf874e33.js"
+    "static/js/main.6ac0debb.js"
   ]
 }
