@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SHOP.com/static/css/main.d6962239.css",
+    "main.js": "/SHOP.com/static/js/main.cf874e33.js",
+    "static/js/787.7c75e61e.chunk.js": "/SHOP.com/static/js/787.7c75e61e.chunk.js",
+    "static/media/SHOP_logo.svg": "/SHOP.com/static/media/SHOP_logo.3e3a38ebf999595fc0450eb47b3776e5.svg",
+    "static/media/🦆 icon _instagram_.svg": "/SHOP.com/static/media/🦆 icon _instagram_.b5caa913dbd7a600fef468fa3dc57d84.svg",
+    "static/media/🦆 icon _twitter_.svg": "/SHOP.com/static/media/🦆 icon _twitter_.3cc4b0d008fcbaf9b859f61679d54abe.svg",
+    "static/media/🦆 icon _facebook squared_.svg": "/SHOP.com/static/media/🦆 icon _facebook squared_.4463c26c27dfc0525a9708c2823d06af.svg",
+    "index.html": "/SHOP.com/index.html",
+    "static/media/🦆 icon _search_.svg": "/SHOP.com/static/media/🦆 icon _search_.8d6530268a17cfc4616b4eab43af431c.svg",
+    "static/media/🦆 icon _x letter_.svg": "/SHOP.com/static/media/🦆 icon _x letter_.392e755ee15f2c3c8d04565851c1e6c5.svg",
+    "static/media/🦆 icon _fast arrow top_.svg": "/SHOP.com/static/media/🦆 icon _fast arrow top_.c717b32934346bb937ac22178bb825fb.svg",
+    "static/media/🦆 icon _menu_.svg": "/SHOP.com/static/media/🦆 icon _menu_.b3304817e7ea5169a4341869ef68749d.svg",
+    "static/media/🦆 icon _nav arrow left_.svg": "/SHOP.com/static/media/🦆 icon _nav arrow left_.48a7ccf40f5af85d98345a1f32c15166.svg",
+    "static/media/🦆 icon _nav arrow right_.svg": "/SHOP.com/static/media/🦆 icon _nav arrow right_.ff7d2ed56fe554895fc01017a3d1f545.svg",
+    "main.d6962239.css.map": "/SHOP.com/static/css/main.d6962239.css.map",
+    "main.cf874e33.js.map": "/SHOP.com/static/js/main.cf874e33.js.map",
+    "787.7c75e61e.chunk.js.map": "/SHOP.com/static/js/787.7c75e61e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6962239.css",
+    "static/js/main.cf874e33.js"
+  ]
+}
