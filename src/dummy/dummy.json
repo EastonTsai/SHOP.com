@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "url": "https://picsum.photos/600/400?random=1",
+      "alt": "商品 1"
+    },
+    {
+      "id": 2,
+      "url": "https://picsum.photos/400/300?random=2",
+      "alt": "商品 2"
+    },
+    {
+      "id": 3,
+      "url": "https://picsum.photos/900/600?random=3",
+      "alt": "商品 3"
+    },
+    {
+      "id": 4,
+      "url": "https://picsum.photos/500/400?random=4",
+      "alt": "商品 4"
+    },
+    {
+      "id": 5,
+      "url": "https://picsum.photos/500/400?random=5",
+      "alt": "商品 5"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+@import "styles/globalVars.scss";
+
+.header_search {
+  input {
+    max-width: 75%;
+    border: none;
+    background-color: #eee;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 20px 0 0 20px;
+  }
+
+  button {
+    max-width: 25%;
+    border: none;
+    background-color: #ddd;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 0 20px 20px 0;
+  }
+}

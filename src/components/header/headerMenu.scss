@@ -1,0 +1,80 @@
+@import "styles/globalVars.scss";
+
+.left-navbar-full {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .4);
+  transform-origin: 0;
+  z-index: 99;
+  animation: closeLeftNavbar .6s forwards;
+}
+
+.left-navbar {
+  width: 50%;
+  height: 100%;
+  transform: translateX(-100%);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+
+  >label {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+  }
+
+  >ul {
+    padding-top: 10rem;
+  }
+
+  .nav-item {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@keyframes closeLeftNavbar {
+  60% {
+    transform: scaleX(1);
+  }
+
+  88% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+
+@keyframes showLeftNavbar {
+  0% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+#menu-checkbox:checked~.left-navbar-full {
+  animation: showLeftNavbar .6s forwards;
+
+  &>.left-navbar {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: $rwd-s ) {
+  .left-navbar {
+    width: 40%;
+  }
+
+}

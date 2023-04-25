@@ -1,0 +1,45 @@
+@import "styles/globalVars.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, .7);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+}
+
+
+.header_logo {
+  svg {
+    width: 150px;
+  }
+}
+
+.header_navbar {
+  display: none;
+  justify-content: space-between;
+}
+
+
+@media screen and (min-width: $rwd-s) {
+  .header {
+    position: absolute;
+  }
+
+  .header_menu {
+    display: none;
+  }
+
+  .header_navbar {
+    display: flex;
+  }
+}

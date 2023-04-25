@@ -1,0 +1,38 @@
+.footer_middle {
+  padding-top: 1.5rem;
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: .25rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .input-wrap {
+    display: flex;
+    width: 100%;
+    border: 1px solid #fff;
+
+    input,
+    button {
+      padding: 0.5rem 1.25rem;
+      background: none;
+      color: #fff;
+      font-weight: 100;
+      font-size: .75rem;
+      letter-spacing: 1px;
+    }
+
+    input {
+      border: none;
+      max-width: 80%;
+    }
+
+    button {
+      min-width: 20%;
+      border: none;
+      border-left: 1px solid #fff;
+    }
+  }
+
+}

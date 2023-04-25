@@ -1,0 +1,35 @@
+@import "styles/globalVars.scss";
+
+.back-top {
+  text-align: center;
+  transition: .3s;
+  color: #ccc;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  cursor: pointer;
+
+  p {
+    padding-top: 0.25rem;
+  }
+
+  svg {
+    width: 1rem;
+
+    path {
+      stroke: #ccc;
+    }
+  }
+
+  &:hover,
+  &:hover svg>path {
+    color: #000;
+    stroke: #000;
+  }
+}
+
+@media screen and (max-width:$rwd-s) {
+  .back-top {
+    display: none;
+  }
+}

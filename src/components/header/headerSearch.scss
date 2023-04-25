@@ -1,0 +1,41 @@
+@import "styles/globalVars.scss";
+
+.view-sm {
+  .search-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -99;
+    opacity: 0;
+    transition: .6s;
+  }
+}
+
+#search-checkbox {
+  display: none;
+}
+
+#search-checkbox:checked~.search-wrap {
+  opacity: 1;
+  transform: translateY(100%);
+}
+
+.view-l {
+  width: 300px;
+
+}
+
+@media screen and (min-width: $rwd-l) {
+  .view-sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $rwd-l) {
+  .view-l {
+    display: none;
+  }
+}
