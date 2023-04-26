@@ -1,0 +1,14 @@
+@import "styles/globalVars.scss";
+
+.nav-item {
+  font-size: 1.25rem;
+
+  a {
+    color: $main_font_color;
+    transition: .6s;
+  }
+
+  &:hover a {
+    color: $focus_color;
+  }
+}

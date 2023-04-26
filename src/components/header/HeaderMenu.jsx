@@ -17,10 +17,10 @@ const HeaderMenu = () => {
             <XIcon />
           </label>
           <ul>
-            <NavItem className='nav-item' title='最新優惠' to='/' />
-            <NavItem className='nav-item' title='門市據點' to='/' />
-            <NavItem className='nav-item' title='查詢庫存' to='/' />
-            <NavItem className='nav-item' title='Q & A' to='/' />
+            <NavItem title='最新優惠' to='/' />
+            <NavItem title='門市據點' to='/' />
+            <NavItem title='查詢庫存' to='/' />
+            <NavItem title='Q & A' to='/' />
           </ul>
         </div>
       </div >

@@ -4,7 +4,8 @@ import { NavItem } from "components/sharedComponents/NavItem"
 import { useState, useEffect } from "react"
 import { getBanner } from "api/CRUD"
 import Banner from "components/main/Banner"
-import Section from "./Section"
+import Section from "components/main/Section"
+import ClassItem from "components/sharedComponents/ClassItem"
 
 const Main = () => {
   const [bannerPictures, setBannerPictures] = useState(defaultBanner)
@@ -24,12 +25,12 @@ const Main = () => {
       <div className="container">
         <div className="classification">
           <ul>
-            <NavItem to="/" title="WOMEN" />
-            <NavItem to="/" title="MEN" />
-            <NavItem to="/" title="KIDS" />
-            <NavItem to="/" title="SALE" />
-            <NavItem to="/" title="EDIT" />
-            <NavItem to="/" title="NET LITE" />
+            <ClassItem to="/" title="WOMEN" chinese="女裝" />
+            <ClassItem to="/" title="MEN" chinese="男裝" />
+            <ClassItem to="/" title="KIDS" chinese="童裝" />
+            <ClassItem to="/" title="SALE" chinese="促銷" />
+            <ClassItem to="/" title="EDIT" chinese="特輯" />
+            <ClassItem to="/" title="NEW LITE" chinese="新款" />
           </ul>
         </div>
         <Banner pictures={bannerPictures && bannerPictures} />

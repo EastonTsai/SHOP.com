@@ -5,8 +5,8 @@ const SectionCard = ({ url, alt, to, content }) => {
   return (
     <div className="section-card">
       {to ?
-        <Link >
-          <div div className="pictures_pic" >
+        <Link to={to}>
+          <div className="pictures_pic" >
             <img src={url} alt={alt} />
           </div >
           {content &&

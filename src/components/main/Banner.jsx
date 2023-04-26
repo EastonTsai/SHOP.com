@@ -8,19 +8,16 @@ const Banner = ({ pictures }) => {
   const [activePicture, setActivePicture] = useState(0)
   const translate = Number(activePicture) * 100
   const firstRender = useRef(true)
-  const [isAuto, setIsAuto] = useState(true)
-
+  const isAuto = useRef(true)
   useEffect(() => {
     if (firstRender.current) {
       firstRender.current = false
       return
     }
-    if (isAuto) {
-      setTimeout(() => {
-        handleControlRight()
-      }, 4000)
-    }
-  }, [activePicture, isAuto])
+    setTimeout(() => {
+      handleControlRight()
+    }, 3000)
+  }, [activePicture])
 
   const handleControlLeft = () => {
     if (activePicture <= 0) {
@@ -43,10 +40,7 @@ const Banner = ({ pictures }) => {
 
   return (
     <div
-      className="banner"
-      onMouseEnter={() => setIsAuto(!isAuto)}
-      onMouseOut={() => setIsAuto(!isAuto)}
-    >
+      className="banner">
       <div
         className="banner_pictures"
         style={{ transform: `translateX(-${translate}%)` }}

@@ -1,0 +1,23 @@
+@import "styles/globalVars.scss";
+
+%content {
+  height: 100%;
+  line-height: 50px;
+  transition: .6s;
+  color: $main_font_color;
+}
+
+.classification-item {
+  height: 50px;
+  overflow: hidden;
+
+  .top,
+  .button {
+    @extend %content;
+  }
+
+  &:hover .top,
+  &:hover .button {
+    transform: translateY(-100%);
+  }
+}

@@ -29,11 +29,9 @@
 
   >ul {
     padding-top: 10rem;
-  }
-
-  .nav-item {
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 0;
   }
 }
 

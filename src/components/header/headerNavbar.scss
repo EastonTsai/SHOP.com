@@ -3,12 +3,10 @@
 .navbar {
   display: flex;
   align-items: center;
+  gap: 0 1rem;
 
-  .nav-item {
-    padding: 0 .5rem;
-    font-size: 1.25rem;
-  }
 }
+
 
 @media screen and (min-width: $rwd-l) {
   .nav-item {
