@@ -7,17 +7,17 @@ import { useState, useEffect, useRef } from "react"
 const Banner = ({ pictures }) => {
   const [activePicture, setActivePicture] = useState(0)
   const translate = Number(activePicture) * 100
-  const firstRender = useRef(true)
-  const isAuto = useRef(true)
-  useEffect(() => {
-    if (firstRender.current) {
-      firstRender.current = false
-      return
-    }
-    setTimeout(() => {
-      handleControlRight()
-    }, 3000)
-  }, [activePicture])
+  // const firstRender = useRef(true)
+  // const isAuto = useRef(true)
+  // useEffect(() => {
+  //   if (firstRender.current) {
+  //     firstRender.current = false
+  //     return
+  //   }
+  //   setTimeout(() => {
+  //     handleControlRight()
+  //   }, 3000)
+  // }, [activePicture, pictures])
 
   const handleControlLeft = () => {
     if (activePicture <= 0) {

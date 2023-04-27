@@ -28,6 +28,11 @@
       max-width: 80%;
     }
 
+    input::placeholder {
+      color: #fff;
+      font-weight: 500;
+    }
+
     button {
       min-width: 20%;
       border: none;
