@@ -1,0 +1,46 @@
+.leftNavbar_item {
+  padding: 0.75rem 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  >ul {
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height .6s;
+  }
+
+  li {
+    padding: 0.5rem 0;
+  }
+
+  span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: rotate(45deg);
+    margin-right: 5px;
+    transition: .3s;
+  }
+
+  #leftNavbar_item-checkbox:checked~label>div>span {
+    transform: rotate(135deg);
+  }
+
+  #leftNavbar_item-checkbox:checked~ul {
+    max-height: 500px;
+  }
+
+  #leftNavbar_item-checkbox {
+    display: none;
+  }
+}

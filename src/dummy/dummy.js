@@ -84,3 +84,49 @@ export const defaultSectionTwo = [
     content: "新款男/女裝"
   },
 ]
+
+export const defaultClassificationItem = [
+  {
+    title: '上衣',
+    items: [
+      { title: '短袖' },
+      { title: '長袖' },
+      { title: '袖' },
+      { title: '長袖' },
+      { title: '長袖' },
+      { title: '長袖' },
+    ]
+  },
+  { title: '褲子' },
+  { title: '優惠' },
+]
+export const defaultDescription = [
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=31'
+  },
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=32'
+  },
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=33'
+  },
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=34'
+  },
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=35'
+  },
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=36'
+  },
+  {
+    title: '商品 1',
+    url: 'https://picsum.photos/400/600?random=37'
+  },
+]

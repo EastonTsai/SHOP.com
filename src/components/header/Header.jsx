@@ -7,7 +7,6 @@ import { Link } from "react-router-dom"
 import HeaderMenu from "components/header/HeaderMenu"
 import HeaderNavbar from "components/header/HeaderNavbar"
 import HeaderSearch from "components/header/HeaderSearch"
-import BackTop from "./BackTop"
 
 const Header = () => {
   // const handleBackTop = () => {
@@ -31,8 +30,6 @@ const Header = () => {
         <div className="header_search">
           <HeaderSearch />
         </div>
-        <BackTop />
-        {/* <BackTop onClick={handleBackTop} /> */}
       </div>
     </header>
   )

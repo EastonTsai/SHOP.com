@@ -8,7 +8,7 @@ const ClassItem = ({ title, chinese, to }) => {
         <div className="top">
           {title}
         </div>
-        <div className="button">
+        <div className="bottom">
           {chinese}
         </div>
       </Link>

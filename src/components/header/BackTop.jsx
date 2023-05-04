@@ -1,7 +1,7 @@
 import "components/header/backTop.scss"
 import { ReactComponent as BackTopIcon } from "picture/icon/🦆 icon _fast arrow top_.svg"
 
-const BackTop = ({ onClick }) => {
+const BackTop = () => {
   const handleBackTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }

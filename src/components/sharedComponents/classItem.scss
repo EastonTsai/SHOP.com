@@ -12,12 +12,12 @@
   overflow: hidden;
 
   .top,
-  .button {
+  .bottom {
     @extend %content;
   }
 
   &:hover .top,
-  &:hover .button {
+  &:hover .bottom {
     transform: translateY(-100%);
   }
 }

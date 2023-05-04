@@ -1,8 +1,7 @@
 @import "styles/globalVars.scss";
 
 .section-card {
-  min-width: 300px;
-  aspect-ratio: 4/3;
+  aspect-ratio: 3.5/5;
   box-shadow: 3px 3px 10px #ddd;
 
   .pictures_pic {
@@ -33,8 +32,12 @@
   }
 }
 
-@media screen and (min-width:$rwd-s) {
+@media screen and (max-width:$rwd-s) {
   .section-card {
-    aspect-ratio: 3.5/5;
+    .bottom_content {
+      p {
+        font-size: 1.25rem;
+      }
+    }
   }
 }
